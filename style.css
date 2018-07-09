@@ -52,14 +52,24 @@
 
     /*flex-grow: 1;*/
 
-    flex-basis: 400px;
-    flex-grow: 1;
+    /*flex-basis: 400px;
+    flex-grow: 1;*/
 
+    flex-grow: 1;
+}
+.item:nth-child(1){
+    order: 1;
 }
 .item:nth-child(2){
+    order: 2;
+}
+.item:nth-child(5){
+    order: -1;
+}
+/*.item:nth-child(2){
     flex-grow: 4;
     flex-shrink: 2;
-}
+}*/
 /*.item:nth-child(1){
     flex-grow: 2;
 }*/
