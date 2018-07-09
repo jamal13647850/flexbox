@@ -34,7 +34,7 @@
     align-content: space-between;
     align-content: space-around;*/
 
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
 }
 
 .item{
@@ -50,8 +50,15 @@
     align-items: center;*/
 
 
+    /*flex-grow: 1;*/
+
+    flex-basis: 400px;
     flex-grow: 1;
 
+}
+.item:nth-child(2){
+    flex-grow: 4;
+    flex-shrink: 2;
 }
 /*.item:nth-child(1){
     flex-grow: 2;
