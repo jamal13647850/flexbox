@@ -1,0 +1,15 @@
+.container{
+    background:  #ffd54f;
+    display: flex;
+}
+
+.item{
+    font-size: 100px;
+    padding: 20px;
+    background: #ffffff;
+    margin: 3px;
+    text-align: center;
+    text-shadow:  4px 4px 0 rgba(0,0,0,0.1);
+    box-shadow:  1px 1px 0 rgba(0,0,0,0.1);
+
+}
