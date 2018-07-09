@@ -1,0 +1,31 @@
+.siteHeader{
+    display: flex;
+    padding: 10px;
+    background-color: #56727c;
+    justify-content: space-between;
+}
+.siteHeader__section{
+    display: flex;
+    align-items: center;
+}
+.siteHeader__item{
+    padding: 5px 15px;
+}
+.siteHeader__item + .siteHeader__item{
+    margin-left: 5px;
+    font-size: 13px;
+}
+.siteHeaderButton{
+    cursor: pointer;
+    color: #d9e9ef;
+}
+.siteHeader__item.active{
+    color: #ffffff;
+    background-color: #415f69;
+    border-radius: 4px;
+}
+.siteHeaderLogo{
+    font-size: 20px;
+    line-height: 0;
+    color: #ffffff;
+}
