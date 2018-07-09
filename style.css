@@ -1,6 +1,16 @@
 .container{
     background:  #ffd54f;
     display: flex;
+    /*flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;*/
+    /*flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;*/
+
+    /*short hand for flex-direction and flex-wrap*/
+    /*flex-flow: row-reverse wrap;*/
 }
 
 .item{
